@@ -1,0 +1,22 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-actions {
+    margin-top: auto; /* Pour que les boutons soient alignés en bas de la carte */
+}
+
+.product-image {
+    max-width: 100%; /* Pour que l'image soit redimensionnée pour s'adapter à la largeur de la carte */
+    height: center; /* Pour maintenir les proportions de l'image */
+    align-self: center; /* Centrer l'image verticalement */
+    margin-bottom: 10px; /* Ajouter un peu d'espace en bas de l'image */
+}

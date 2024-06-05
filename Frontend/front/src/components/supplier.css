@@ -1,0 +1,27 @@
+.update-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rosybrown;
+    color: white;
+    cursor: pointer;
+    text-decoration: none; /* Supprime le soulignement des liens */
+    margin-right: 10px; /* Ajoute un espacement à droite entre les boutons */
+}
+
+.delete-btn {
+    padding: 12px 24px; /* Augmente légèrement le padding pour agrandir le bouton */
+    border: none;
+    border-radius: 10px; /* Augmente le rayon de la bordure pour rendre le bouton plus arrondi */
+    background-color: rosybrown;
+    color: white;
+    cursor: pointer;
+    text-decoration: none; /* Supprime le soulignement des liens */
+    margin-right: 10px;
+}
+
+
+/* Supprime l'espacement à droite pour le dernier bouton */
+.delete-btn:last-child {
+    margin-right: 0;
+}

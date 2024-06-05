@@ -1,0 +1,113 @@
+/* Nav.css */
+.home-background {
+    background-image: url('../images/chacha.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Ajustez la hauteur de l'arrière-plan selon vos besoins */
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.Navbar {
+    background-color: rosybrown;
+    padding: 1rem 0;
+    width: 70%;
+    position: fixed;
+    top: 50;
+    z-index: 100;
+    display: flex; /* Utilisez Flexbox */
+    justify-content: center; /* Centre horizontalement */
+    align-items: flex-end; /* Alignez les éléments au bas */
+}
+
+.navbar .navbar-brand {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    margin-right: 30px;
+    text-decoration: none;
+    margin-top:30;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top:30;
+}
+
+.logout-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top:30;
+
+}
+
+
+/* Style pour la barre de recherche */
+.form-control {
+    border-radius: 50px; /* Bordures arrondies */
+    border-color: blanchedalmond; /* Couleur de la bordure */
+    margin-right: 50px; /* Marge à droite */
+    margin-top: 10px; /* Espacement en haut */
+}
+
+
+/* Style pour le bouton de recherche */
+.btn-outline-success {
+    border-radius: 50px; /* Bordures arrondies */
+    border-color: rosybrown; /* Couleur de la bordure */
+    color: black; /* Couleur du texte */
+    margin-top: -10px; /* Déplace le bouton vers le haut */
+    margin-right: 20px;
+    font-size: 15px; /* Augmentation de la taille de la police */
+    padding: 10px 20px; /* Ajustement du padding */
+}
+
+/* Style pour le bouton de recherche lorsqu'il est survolé */
+.btn-outline-success:hover {
+    color: #fff; /* Couleur du texte au survol */
+    background-color: rosybrown; /* Couleur de fond au survol */
+    border-color: rosybrown; /* Couleur de la bordure au survol */
+}
+
+
+
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 5px;
+}
+
+.card-actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+

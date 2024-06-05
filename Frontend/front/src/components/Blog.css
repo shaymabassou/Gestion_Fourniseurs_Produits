@@ -1,0 +1,277 @@
+/* Réinitialisation des styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles généraux pour le conteneur */
+.container {
+    padding: 2% 10% 2% 10%;
+}
+
+/* Styles pour les éléments de type tableau */
+.table-container {
+    display: flex;
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne si nécessaire */
+    gap: 20px; /* Espacement entre les tableaux */
+}
+
+/* Styles spécifiques pour chaque tableau */
+.posts-table,
+.suppliers-table,
+.products-table,
+.thirdparties-table {
+    flex: 1; /* Permet à chaque tableau de prendre une part égale de l'espace disponible */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Pour masquer les débordements horizontaux */
+}
+
+/* Styles spécifiques pour les en-têtes de chaque tableau */
+.table-header {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+/* Styles spécifiques pour les cellules d'en-tête de chaque tableau */
+.posts-table th,
+.suppliers-table th,
+.products-table th,
+.thirdparties-table th {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
+
+/* Styles spécifiques pour les lignes de chaque tableau */
+.table-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Styles spécifiques pour les lignes de chaque tableau */
+.posts-table .table-row,
+.suppliers-table .table-row,
+.products-table .table-row,
+.thirdparties-table .table-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Styles spécifiques pour les boutons de suppression */
+.delete-btn {
+    padding: 8px 16px;
+    background-color: #df3a3a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #b32700;
+}
+/* Style pour le tableau */
+
+  
+  /* Style pour le bouton "Delete" */
+  .delete-btn {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  /* Style pour le bouton "Delete" au survol */
+  .delete-btn:hover {
+    background-color: #cc4c38;
+  }
+  /* Style pour le tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Style pour les en-têtes de colonne */
+  th {
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Style pour les cellules de données */
+  td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+  
+  /* Style pour les lignes impaires */
+  tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Style pour le bouton "Delete" */
+  .delete-btn {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  /* Style pour le bouton "Delete" au survol */
+  .delete-btn:hover {
+    background-color: #cc4c38;
+  }
+/* Style pour le tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Style pour les en-têtes de colonne */
+  th {
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Style pour les cellules de données */
+  td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+  }
+  
+  /* Style pour les lignes impaires */
+  tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Style pour le bouton "Delete" */
+  .delete-btn {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  /* Style pour le bouton "Delete" au survol */
+  .delete-btn:hover {
+    background-color: #cc4c38;
+  }
+  
+  /* Style pour les lignes au survol */
+  .table-row:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Style pour les cellules au survol */
+  .table-cell:hover {
+    background-color: #e0e0e0;
+  }
+  
+/* Style pour le bouton "Update" */
+.update-btn {
+    background-color:rosybrown;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Style pour le bouton "Update" au survol */
+.update-btn:hover {
+    background-color: rosybrown;
+}
+.navbar {
+  background-color: rgb(203, 164, 164);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 0;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-weight: bold; /* Texte en gras */
+  font-size: 30px; /* Taille de la police */
+  /* Autres styles de texte pour un titre bien formé */
+  font-family: Arial, sans-serif; /* Police de caractère */
+  text-transform: uppercase; /* Mettre le texte en majuscules */
+  letter-spacing: 2px; /* Espacement entre les lettres */
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-top:100;
+}
+
+.navbar ul li {
+  margin-right: 2rem;
+}
+
+.navbar ul li a {
+  color: white; /* Couleur du texte en blanc */
+  text-decoration: none; /* Pas de soulignement */
+  font-weight: bold; /* Texte en gras */
+  font-family: Arial, sans-serif; /* Style de police */
+  margin-top:100;
+}
+
+
+.navbar ul li a {
+
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.centered-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px; /* Ajoute une marge supérieure pour éloigner les boutons de la barre de navigation */
+}
+
+/* Styles des boutons */
+.centered-buttons .btn {
+  width: 200px; /* Ajustez la largeur selon vos besoins */
+  height: 50px; /* Ajustez la hauteur selon vos besoins */
+  margin-bottom: 20px; /* Ajoute de l'espace entre chaque bouton */
+  background-color: rosybrown;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Style au survol des boutons */
+.centered-buttons .btn:hover {
+  background-color: #ff6b81; /* Changez la couleur au survol si vous le souhaitez */
+}

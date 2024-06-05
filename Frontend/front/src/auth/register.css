@@ -1,0 +1,13 @@
+.btn-pink {
+    background-color: rosybrown;
+    color: #fff;
+    padding: 10px 20px; /* Ajustez la taille du padding pour agrandir le bouton */
+    border: 2px solid rosybrown; /* Ajoute une bordure autour du bouton */
+    border-radius: 3px; /* Arrondit les coins de la bordure */
+    margin-bottom: 50px; /* Ajoute un espacement en bas de 50 pixels */
+    margin-top: 20px; /* Ajoute un espacement en haut de 20 pixels */
+}
+
+.container {
+    margin-bottom: 50px; /* Ajoute un espacement en bas de 50 pixels */
+}
